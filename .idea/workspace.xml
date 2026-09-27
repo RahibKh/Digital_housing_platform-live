@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb2d466e-8a8b-4848-b7f3-2e07b4ba345c" name="Changes" comment="bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +22,12 @@
     &quot;assignee&quot;: &quot;RahibKh&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RahibKh/Digital_housing_platform-live",
-    "accountId": "461666f4-a96a-4937-a362-88931ffd55fd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RahibKh/Digital_housing_platform-live&quot;,
+    &quot;accountId&quot;: &quot;461666f4-a96a-4937-a362-88931ffd55fd&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -91,6 +92,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
     <MESSAGE value="bug fix" />
     <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
