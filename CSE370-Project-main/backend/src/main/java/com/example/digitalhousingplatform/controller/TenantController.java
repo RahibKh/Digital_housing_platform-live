@@ -34,18 +34,18 @@ public class TenantController {
     @Autowired
     private PropertyRepository propertyRepository;
 
-    // ------------------------------------------------------------
+    //       
     // GET ALL TENANTS
-    // ------------------------------------------------------------
+    //       
 
     @GetMapping
     public List<Tenant> listTenants() {
         return tenantRepository.findAll();
     }
 
-    // ------------------------------------------------------------
+    //       
     // GET TENANT BY USER ID
-    // ------------------------------------------------------------
+    //       
 
     @GetMapping("/{id}")
     public ResponseEntity<Tenant> getTenant(@PathVariable int id) {
@@ -54,9 +54,9 @@ public class TenantController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    // ------------------------------------------------------------
+    //       
     // GET CURRENT TENANT PROPERTY
-    // ------------------------------------------------------------
+    //       
 
     @GetMapping("/{tenantId}/property")
     public ResponseEntity<?> getCurrentProperty(
@@ -95,9 +95,9 @@ public class TenantController {
         );
     }
 
-    // ------------------------------------------------------------
+    //       
     // GET TENANT TENANCY HISTORY
-    // ------------------------------------------------------------
+    //       
 
     @GetMapping("/{tenantId}/tenancies")
     public ResponseEntity<List<HasTenancy>> getTenantTenancies(
@@ -109,9 +109,9 @@ public class TenantController {
         );
     }
 
-    // ------------------------------------------------------------
+    //       
     // JOIN PROPERTY USING CODE
-    // ------------------------------------------------------------
+    //       
 
     @PostMapping("/{tenantId}/join")
     @Transactional
@@ -120,9 +120,9 @@ public class TenantController {
             @RequestBody Map<String, String> request
     ) {
 
-        // --------------------------------------------------------
+        //      ------
         // CHECK TENANT
-        // --------------------------------------------------------
+        //      ------
 
         Optional<Tenant> tenant =
                 tenantRepository.findById(tenantId);
@@ -133,9 +133,9 @@ public class TenantController {
             );
         }
 
-        // --------------------------------------------------------
+        //      ------
         // GET CODE
-        // --------------------------------------------------------
+        //      ------
 
         String codeValue = request.get("code");
 
@@ -147,9 +147,9 @@ public class TenantController {
 
         codeValue = codeValue.trim();
 
-        // --------------------------------------------------------
+        //      ------
         // FIND JOIN CODE
-        // --------------------------------------------------------
+        //      ------
 
         Optional<JoinCode> codeOptional =
                 joinCodeRepository.findByCodeValue(codeValue);
@@ -162,9 +162,9 @@ public class TenantController {
 
         JoinCode joinCode = codeOptional.get();
 
-        // --------------------------------------------------------
+        //      ------
         // CHECK CODE STATUS
-        // --------------------------------------------------------
+        //      ------
 
         if (joinCode.getStatus() == null ||
                 !joinCode.getStatus().equalsIgnoreCase("ACTIVE")) {
@@ -174,9 +174,9 @@ public class TenantController {
             );
         }
 
-        // --------------------------------------------------------
+        //      ------
         // CHECK EXPIRY
-        // --------------------------------------------------------
+        //      ------
 
         if (joinCode.getExpiryDate() != null &&
                 joinCode.getExpiryDate().isBefore(LocalDate.now())) {
@@ -189,9 +189,9 @@ public class TenantController {
             );
         }
 
-        // --------------------------------------------------------
+        //      ------
         // FIND PROPERTY
-        // --------------------------------------------------------
+        //      ------
 
         Optional<Property> propertyOptional =
                 propertyRepository.findById(joinCode.getPropertyId());
@@ -204,9 +204,9 @@ public class TenantController {
 
         Property property = propertyOptional.get();
 
-        // --------------------------------------------------------
+        //      ------
         // CHECK WHETHER TENANT IS ALREADY IN THIS PROPERTY
-        // --------------------------------------------------------
+        //      ------
 
         Optional<HasTenancy> currentTenancy =
                 hasTenancyRepository.findActiveTenancyByTenantId(tenantId);
@@ -225,18 +225,18 @@ public class TenantController {
                 );
             }
 
-            // ----------------------------------------------------
+            //      --
             // LEAVE PREVIOUS PROPERTY
-            // ----------------------------------------------------
+            //      --
 
             existing.setLeaveDate(LocalDate.now());
 
             hasTenancyRepository.save(existing);
         }
 
-        // --------------------------------------------------------
+        //      ------
         // CREATE NEW TENANCY
-        // --------------------------------------------------------
+        //      ------
 
         HasTenancy newTenancy = new HasTenancy();
 
@@ -247,18 +247,18 @@ public class TenantController {
 
         hasTenancyRepository.save(newTenancy);
 
-        // --------------------------------------------------------
+        //      ------
         // MARK CODE AS USED
-        // --------------------------------------------------------
+        //      ------
 
         joinCode.setUsedByTenantId(tenantId);
         joinCode.setStatus("USED");
 
         joinCodeRepository.save(joinCode);
 
-        // --------------------------------------------------------
+        //      ------
         // RETURN RESULT
-        // --------------------------------------------------------
+        //      ------
 
         return ResponseEntity.ok(
                 Map.of(
@@ -269,9 +269,9 @@ public class TenantController {
         );
     }
 
-    // ------------------------------------------------------------
+    //       
     // LEAVE CURRENT PROPERTY
-    // ------------------------------------------------------------
+    //       
 
     @PostMapping("/{tenantId}/leave")
     @Transactional
@@ -302,9 +302,9 @@ public class TenantController {
         );
     }
 
-    // ------------------------------------------------------------
+    //       
     // DELETE TENANT
-    // ------------------------------------------------------------
+    //       
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteTenant(

@@ -173,7 +173,7 @@ export default function SignupPage() {
                 </div>
 
                 <div className="field">
-                  <label>Account Role</label>
+                  <label>Account Role (Tap to select a role)</label>
                   <select {...register("role", { required: "Role is required" })}>
                     <option value="tenant">Tenant</option>
                     <option value="landlord">Landlord</option>

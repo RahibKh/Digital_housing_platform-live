@@ -5,122 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2d466e-8a8b-4848-b7f3-2e07b4ba345c" name="Changes" comment="bug fix">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/DigitalhousingplatformApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/AnnouncementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/BillController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/BillShareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/ComplaintController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/HasTenancyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/JoinCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/LandlordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/PropertyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/RatesLandlordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/RatesTenantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/TenantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/Announcement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/BillShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/Complaint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/HasTenancy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/JoinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/Landlord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/RatesLandlord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/RatesTenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/AnnouncementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/BillRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/BillShareRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/ComplaintRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/HasTenancyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/JoinCodeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/LandlordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/PropertyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/RatesLandlordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/RatesTenantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/TenantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/add-announcement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/add-complaint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/announcements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/bills.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/billshares.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/complaints.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/edit-announcement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/edit-complaint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/edit-property.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/hastenancies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/joincodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/landlords.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/properties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/rateslandlords.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/ratestenants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/tenants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/templates/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/test/java/com/example/digitalhousingplatform/DigitalhousingplatformApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/database/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/database/seed_data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/public/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/public/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/public/icons8-house-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/AuthContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/assets/aubrey-odom-ITzfgP77DTg-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/assets/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/assets/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/components/ActionMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/components/AppShell.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/components/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/components/ProtectedRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/components/SmoothScrollProvider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/AnnouncementsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/BillsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/ComplaintsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/DashboardPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/LandlordsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/ProfilePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/PropertiesPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/PropertyDetailPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/SignupPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/TenantsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/utils/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/digitalhousingplatform/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/TenantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/java/com/example/digitalhousingplatform/controller/TenantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/DashboardPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/PropertiesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/PropertiesPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/SignupPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/frontend/src/pages/SignupPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,12 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nafx0/CSE370-Project.git",
-    "accountId": "461666f4-a96a-4937-a362-88931ffd55fd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RahibKh&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nafx0/CSE370-Project.git&quot;,
+    &quot;accountId&quot;: &quot;461666f4-a96a-4937-a362-88931ffd55fd&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -143,10 +44,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3ItJYOHIMfx1c4TxjKcTfchVHWy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -156,6 +57,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.DigitalhousingplatformApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -186,6 +88,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fix" />

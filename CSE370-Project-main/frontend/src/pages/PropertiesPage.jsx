@@ -310,7 +310,7 @@ export default function PropertiesPage() {
                     <input
                       type="number"
                       min="1"
-                      step="100"
+                      step="1"
                       placeholder="e.g. 28000"
                       {...register("rent", {
                         required: "Rent is required",
@@ -327,7 +327,7 @@ export default function PropertiesPage() {
 
                 <div className="form-row">
                   <div className="field">
-                    <label>Occupancy Status</label>
+                    <label>Occupancy Status (Tap to select status)</label>
                     <select {...register("status", { required: "Status is required" })}>
                       <option value="available">Available</option>
                       <option value="rented">Rented</option>

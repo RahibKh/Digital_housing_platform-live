@@ -698,11 +698,13 @@ a.list-row-title:hover {
   text-align: left;
   cursor: pointer;
   transition: background var(--transition-quick), color var(--transition-quick);
+  z-index: 1000;
 }
 
 .action-menu-item:hover {
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
+  z-index: 1000;
 }
 
 .action-menu-item.is-danger {
