@@ -19,7 +19,12 @@ public class DigitalhousingplatformApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://digital-housing-platform-live-frontend.onrender.com")
+                        .allowedOrigins(
+                                "https://rent-ease-bd.onrender.com",
+                                "https://digital-housing-platform-live-frontend.onrender.com",
+                                "http://localhost:3000",
+                                "http://localhost:5173"
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
