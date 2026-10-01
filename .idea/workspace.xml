@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb2d466e-8a8b-4848-b7f3-2e07b4ba345c" name="Changes" comment="bug fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSE370-Project-main/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/CSE370-Project-main/backend/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="cb2d466e-8a8b-4848-b7f3-2e07b4ba345c" name="Changes" comment="bug fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
