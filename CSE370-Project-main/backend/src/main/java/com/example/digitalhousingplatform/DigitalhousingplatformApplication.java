@@ -19,7 +19,8 @@ public class DigitalhousingplatformApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://digital-housing-platform-live-frontend.onrender.com")
+                        // Put your NEW exact frontend Render link here:
+                        .allowedOrigins("https://YOUR-NEW-FRONTEND-NAME.onrender.com")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
